@@ -1,7 +1,6 @@
 # Practice-Challenge-2
 
-# Challenge-1
-Write a function that accepts a string and returns an Object with two properties(the most frequent character, and its count) . If there is more that one most frequent character the Object value should be an array 
+Write a function that accepts a string and returns an Object with two properties(the most frequent character, and its count) . If there is more than one most frequent character the Object value should be an array 
 
 For eg. 
 
@@ -25,7 +24,7 @@ For eg.
   ```
   ```
 "aeroplane"=>{
-              char:['a','e']
+              char:['a','e'],
               count:2
               }
 ```
