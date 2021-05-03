@@ -10,17 +10,20 @@ For eg.
           char:['t'],
           count:2
           }
-
+```
+```
 "string"=>{
            char:['s','t','r','i','n','g'],
            count:1
            }
-
+```
+```
 "giraffe"=>{
             char:['f'],
             count:2
             }
-
+  ```
+  ```
 "aeroplane"=>{
               char:['a','e']
               count:2
