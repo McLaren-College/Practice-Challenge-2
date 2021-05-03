@@ -1,47 +1,27 @@
 # Practice-Challenge-2
 
 # Challenge-1
-Write an  function to return the most frequently occurring character in a given string.If there is more than one most frequently occuring character return the characters in an array.
+Write a function that accepts a string and returns an Object with two properties(the most frequent character, and its count) . If there is more that one most frequent character the Object value should be an array 
 For eg. 
 ```
-"test" =>[t]
+"test" =>{
+          char:['t'],
+          count:2
+          }
 
-"string"=>[s,t,r,i,n,g]
+"string"=>{
+           char:['s','t','r','i','n','g'],
+           count:1
+           }
 
-"giraffe"=>[f]
+"giraffe"=>{
+            char:['f'],
+            count:2
+            }
 
-"aeroplane"=>[a,e]
+"aeroplane"=>{
+              char:['a','e']
+              count:2
+              }
 ```
 
-# Challenge-2
-Write a function that accepts two strings and checks whether the first string is an anagram of the second string. If yes, the function returns true , else it returns false.
-The case(upper/lower)of the character does not matter. 
-
-For eg.
-```
- "Silent","Listen"=>true
- 
- "Brag","Grab"=>true
-  
- "Stressed", "Desserts" =>true
-  
- "Camel","Car"=>false
- ```
- # Challenge-3
-Write a function that accepts two strings and checks whether the first string is an anagram of the second string. If yes, the function returns true , else it returns false.
-The case(upper/lower)of the character MATTERS. 
-
-For eg.
-```
- "Silent","liSten"=>true
- 
- "Silent","Listen"=>false
-  
- "Stressed", "desSerts" =>true
-  
- "StresSed","desSertS"=>true
- 
- "StresSeD","DeSsertS"=>true
- 
- "StresSed","DesSertS"=>false
- ```
