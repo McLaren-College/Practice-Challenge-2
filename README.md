@@ -1,6 +1,6 @@
 # Practice-Challenge-2
 
-Write a function that accepts a string and returns an Object with two properties(the most frequent character, and its count) . If there is more than one most frequent character the Object value should be an array 
+Write a function that accepts a string and returns an Object with two properties(an array of most frequent characters, and their count).
 
 For eg. 
 
