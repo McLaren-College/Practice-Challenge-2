@@ -2,7 +2,9 @@
 
 # Challenge-1
 Write a function that accepts a string and returns an Object with two properties(the most frequent character, and its count) . If there is more that one most frequent character the Object value should be an array 
+
 For eg. 
+
 ```
 "test" =>{
           char:['t'],
